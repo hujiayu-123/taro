@@ -1,0 +1,94 @@
+//首页样式
+.content{
+  .title{
+    text-align: center;
+    margin-top: 30PX;
+    margin-bottom: 25PX;
+    position: relative;
+    .greeting{
+      position: absolute;
+      color: white;
+      right: 75PX;
+      top:0;
+      font-size: 14PX;
+      padding: 1PX 4PX;
+      border-radius: 50px;
+    }
+    .hidden{
+      -webkit-transition: all .5s ease-in;
+      -moz-transition: all .5s ease-in;
+      transition: all .5s ease-in;
+      position: absolute;
+      opacity: 0;
+      color: white;
+      right: 90PX;
+      top:5PX;
+      font-size: 14PX;
+      padding: 1PX 4PX;
+      border-radius: 50px;
+    }
+    span,text{
+      font-size: 35PX;
+      //font-family: "YouYuan";
+      font-weight: bold;
+    }
+    .blue{
+      color: skyblue;
+    }
+    .red{
+      color: red;
+      margin: 0 3PX;
+    }
+    .pink{
+      color: coral;
+    }
+  }
+  .search{
+    width: 100%;
+    height: 45PX;
+    background: #f0f0f0;
+    line-height: 45PX;
+    border-radius: 5PX;
+    span,text{
+      padding-left: 10PX;
+      color: darkgray;
+      font-size: 19PX;
+    }
+  }
+  .slogan{
+    text-align: center;
+    color: darkgray;
+    margin: 20PX 0 35PX 0;
+  }
+  .list{
+    width: 100%;
+    column-count: 2;
+    column-width: 50%;
+    column-gap: 20PX;
+    .listItem{
+      break-inside: avoid;
+      overflow-x: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: #515151;
+      margin-bottom: 10PX;
+      image,img{
+        width: 100%;
+        border-radius: 8px;
+        display: block;
+      }
+      span,text{
+        font-size: 14PX;
+      }
+      .taro-img{
+        width: auto!important;
+        height: auto!important;
+        display: block!important;
+      }
+    }
+  }
+}
+.weui-tabbar__label{
+  margin-bottom: 3PX!important;
+  line-height: 10PX!important;
+}

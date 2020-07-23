@@ -1,0 +1,62 @@
+ //分类页
+ .header-title{
+   display: inline-block;
+   width: 100%;
+   font-weight: bold;
+   font-size: 18PX;
+   margin-bottom: 10PX;
+ }
+ .menu-content{
+   // margin-top: 10px;
+   width: 100%;
+   .menu-list{
+     width: 100%;
+     height: auto;
+     // margin-top: 15PX;
+     &>div:nth-child(4n),&>view:nth-child(4n){
+       margin-right: 0;
+     }
+      // &>div:nth-child(3n),&>view:nth-child(3n){
+      //   background: lightgreen;
+      // }
+     .menu-listitem{
+       width: 22%;
+       margin-right: 4%;
+       float: left;
+       height: 35PX;
+       line-height: 35PX;
+       //padding-bottom: 22%;
+       position: relative;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       white-space: nowrap;
+       margin-bottom: 4%;
+       border-radius: 8PX;
+       text-align: center;
+       background: orange;
+       // image,img{
+       //   width: 100%;
+
+       //   border-radius: 8PX;
+       //   display: block;
+
+       // }
+       // .taro-img{
+       //   width: 100%;
+       //   height: 100%;
+       //   display: block;
+       //   position: absolute;
+       // }
+       span,text{
+         //bottom: 0;
+         display: inline-block;
+         //position: absolute;
+         color: white;
+         //left: 50%;
+         font-size: 14PX;
+         //transform: translate(-50%, -20%);
+       }
+     }
+   }
+ }
+ 

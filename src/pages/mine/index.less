@@ -1,0 +1,166 @@
+//我的页
+  .set{
+    width: 20PX;
+    height: 20PX;
+    margin: 10PX;
+    .taro-img{
+      width: auto;
+      height: auto;
+    }
+    image,img{
+      display: inline;
+    }
+  }
+  .data{
+    width: 100%;
+    height: 180PX;
+    border-bottom: 1px solid #c0c0c0;
+    .mine-user{
+      width: 100%;
+      height: 110PX;
+      .left{
+        float: left;
+        .left-title{
+          font-size: 20PX;
+          font-weight: bold;
+        }
+        .left-date{
+          font-size: 14PX;
+          color: darkgray;
+          margin-top: 30PX;
+        }
+      }
+      .right{
+        float: right;
+        width: 100PX;
+        height: 100PX;
+        border-radius: 50%;
+        overflow: hidden;
+        .taro-img{
+          width: 100%;
+          height: 100%;
+        }
+        img,image{
+          width: 100PX;
+          height: 100PX;
+        }
+      }
+    }
+    .mine-inf{
+      width: 100%;
+      height: 70PX;
+      .left{
+        float: left;
+        .num{
+          float: left;
+          font-size: 14PX;
+          color: darkgray;
+        }
+        div:nth-child(2),view:nth-child(2){
+          margin-left: 20PX;
+        }
+      }
+      .right{
+        float: right;
+        width: 50PX;
+        height: 25PX;
+        background: limegreen;
+        text-align: center;
+        font-size: 14PX;
+        color: white;
+        line-height: 25PX;
+        border-radius: 5PX;
+        margin-top: 13PX;
+      }
+    }
+  }
+.content{
+  .data-detail{
+    width: 100%;
+    .tab{
+      width: 60%;
+      height: 40PX;
+      margin: 10PX auto;
+      div,view{
+        float: left;
+        width: 33.33%;
+        text-align: center;
+        line-height: 40PX;
+      }
+      .active{
+        color: rgb(255, 140, 0);
+        border-bottom: 1px solid rgb(255, 140, 0);
+        display: block;
+      }
+    }
+    .contents{
+      width: 100%;
+      height:auto;
+      div,view{
+        width: 100%;
+        display: none;
+      }
+      .active{
+        display: block;
+        width: 100%;
+        height: 300PX;
+        .collect{
+          height: 200PX;
+          width: 100%;
+          background: #f0f0f0;
+          display: inline-block;
+        }
+        .collect-txt1{
+          display: block;
+          margin-top: 10PX;
+        }
+      }
+    }
+  }
+}
+
+//登录页
+.login{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -107PX;
+}
+.login-title{
+  width: 100%;
+  text-align: center;
+  span,text{
+    font-size: 40PX;
+  }
+  .red{
+    color: skyblue;
+  }
+  .blue{
+    color: orangered;
+    margin-left: 3PX;
+    margin-right: 3PX;
+  }
+  .pink{
+    color: coral;
+  }
+}
+.login-babel{
+  font-size: 14PX;
+  margin-top: 10PX;
+  color: darkgray;
+  text-align: center;
+}
+.login-babel1{
+  font-size: 14PX;
+  margin-top: 20PX;
+  text-align: center;
+}
+.login-btn{
+  margin: 20PX auto;
+  width: 200PX;
+  height: 35PX;
+  text-align: center;
+  line-height: 35PX;
+  background: orangered;
+  color: white;
+}
